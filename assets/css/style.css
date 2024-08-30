@@ -30,13 +30,13 @@
     hsl(240, 2%, 13%);
   --bg-gradient-yellow-1: linear-gradient(
     to bottom right,
-    hsl(204, 100%, 50%) 0%,
-    hsla(204, 100%, 50%, 0) 50%
+    hsl(207, 86%, 57%) 0%,
+    hsla(197, 86%, 57%, 0) 50%
   );
   --bg-gradient-yellow-2: linear-gradient(
       135deg,
-      hsla(45, 100%, 71%, 0.251) 0%,
-      hsla(204, 100%, 50%, 0) 59.86%
+      hsla(207, 86%, 57%, 0.251) 0%,
+      hsla(197, 86%, 57%, 0) 59.86%
     ),
     hsl(240, 2%, 13%);
   --border-gradient-onyx: linear-gradient(
@@ -46,8 +46,8 @@
   );
   --text-gradient-yellow: linear-gradient(
     to right,
-    hsl(204, 100%, 50%),
-    hsla(204, 100%, 50%)
+    hsl(207, 86%, 57%),
+    hsl(197, 86%, 57%)
   );
 
   /* solid */
