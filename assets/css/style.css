@@ -1940,14 +1940,14 @@ textarea.form-input::-webkit-resizer {
   border-radius: 20px;
   font-weight: 500;
   color: var(--smoky-black);
-  box-shadow: -5px 4px 40px 0px hsl(45deg 100% 81.4% / 19%);
+  box-shadow: -5px 4px 40px 0px hsl(207deg 100% 81.4% / 19%);
   cursor: pointer;
   transition: 0.2s;
   display: none;
 }
 
 .download-cv-btn:hover {
-  box-shadow: -5px 8px 40px 0px hsla(45, 100%, 77%, 0.357);
+  box-shadow: -5px 8px 40px 0px hsla(207, 100%, 77%, 0.357);
 }
 
 @media (min-width: 1250px) {
