@@ -1958,3 +1958,11 @@ textarea.form-input::-webkit-resizer {
     display: none;
   }
 }
+.timeline-item-title a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.timeline-item-title a:hover {
+  text-decoration: underline;
+}
