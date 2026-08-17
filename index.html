@@ -428,7 +428,25 @@
     </div>
 
     <ol class="timeline-list">
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">
+          <a href="https://github.com/Behradsadeghi/portfolio-chatbot" target="_blank" rel="noopener noreferrer">
+            Grounded RAG Assistant for This Site
+          </a>
+        </h4>
 
+        <p class="timeline-text">
+          The chat assistant on this page. A production retrieval-augmented generation (RAG) system that answers
+          questions about my background using this site as its only knowledge source, with source attribution and
+          explicit refusal when the retrieved context doesn't contain the answer. Retrieval quality is driven by an
+          evaluation harness over a hand-labelled golden set, measured with recall@k — which was used to reject two
+          plausible optimizations that turned out to degrade ranking. Supports conversational follow-ups through
+          LLM-based query rewriting, and the public endpoint is hardened with two-layer rate limiting, request
+          validation, and automatic model fallback on quota exhaustion. Built with FastAPI, the Gemini API, and NumPy;
+          deployed on Render, with a vanilla-JavaScript widget on the static site.
+          <br>
+        </p>
+      </li>
       <li class="timeline-item">
         <h4 class="h4 timeline-item-title">
           <a href="https://github.com/Behradsadeghi/Transaction-Fraud-Detection" target="_blank" rel="noopener noreferrer">
